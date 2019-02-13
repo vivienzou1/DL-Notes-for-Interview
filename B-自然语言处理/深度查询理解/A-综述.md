@@ -10,11 +10,18 @@ Index
     - [查询理解系统的特点](#查询理解系统的特点)
 - [深度查询理解](#深度查询理解)
     - [查询理解模块的作用与处理流程](#查询理解模块的作用与处理流程)
+- [各组件的最新方法（2015）](#各组件的最新方法2015)
+    - [查询纠错（Query Correction）](#查询纠错query-correction)
+    - [查询建议（Query Suggestion）](#查询建议query-suggestion)
+    - [查询扩展（Query Expansion）](#查询扩展query-expansion)
+    - [查询分类（Query Classification）](#查询分类query-classification)
+    - [语义标签（Semantic Tagging）](#语义标签semantic-tagging)
 - [引用文献](#引用文献)
 
 <!-- /TOC -->
 
 <h3> 参考文献 </h3>
+
 - (Prakash and Patel, 2015) Techniques for Deep Query Understanding
 
 
@@ -97,7 +104,7 @@ Index
 - 将扩展后的查询集合传入**查询意图检测子模块**，用于推断查询的确切意图，其中
     - **查询分类**组件用于标记查询所属的类别（用于过滤不相关的查询），通常被定义为运动、天气、旅游或视频等不同类别之一，如 “brazil germany” 可能会被定义为运动（如果搜索了足球）或旅游（搜索了巴西到德国的航班）；
         - 一个查询可能会被划分为多个片段（Segment），特别是对于句子类型的搜索，不同的片段被分为不同的类别；
-    - **语义标记**组件对每个查询做语义标记，以进行精确的意图检测。
+    - **语义标签**组件对每个查询做语义标记，以进行精确的意图检测。
 - 最后将扩展的意图标记查询集合传递到答案生成模块
 
 <div align="center"><img src="./_assets/TIM截图20190213151159.png" height="" /></div>
@@ -106,9 +113,25 @@ Index
 - **查询建议**给出了两个不同领域的可能推荐，这里假设用户选择了 “Michael Jordan berkley” 作为他真正的目标；
 - **查询拓展**找到更多的同义查询加入查询集；
 - **查询分类**将得到的查询集分类为目标类别（这里是 "academic"）；
-- **语义标记**对查询中的不同片段进行标记，以获得准确的查询意图。
+- **语义标签**对查询中的不同片段进行标记，以获得准确的查询意图。
 
 
+## 各组件的最新方法（2015）
+
+### 查询纠错（Query Correction）
+- 查询纠错的过程可能包括：
+
+
+### 查询建议（Query Suggestion）
+
+
+### 查询扩展（Query Expansion）
+
+
+### 查询分类（Query Classification）
+
+
+### 语义标签（Semantic Tagging）
 
 
 ## 引用文献
