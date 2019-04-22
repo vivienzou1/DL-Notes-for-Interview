@@ -3,6 +3,7 @@
 > [Applications](https://keras.io/applications/) - Keras Documentation 
 
 - [2015] VGGNet(16/19) [2]
+- [2015] GoogleNet [10]
 - [2016] Inception-v1/v2/v3 [4]
 - [2016] ResNet [3]
 - [2017] Xception [1]
@@ -40,3 +41,4 @@ Index
 - [7] Densely Connected Convolutional Networks, CVPR 2017.
 - [8] Learning Transferable Architectures for Scalable Image Recognition, arXiv 2017.
 - [9] MobileNetV2: Inverted Residuals and Linear Bottlenecks, CVPR 2018.
+- [10] 

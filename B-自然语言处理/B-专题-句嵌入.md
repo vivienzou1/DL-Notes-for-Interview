@@ -1,4 +1,4 @@
-专题-句向量（Sentence Embedding）
+专题-句嵌入（Sentence Embedding）
 ===
 
 Reference
@@ -19,6 +19,7 @@ Index
 - [词袋模型](#词袋模型)
     - [[2018] Power Mean 均值模型](#2018-power-mean-均值模型)
     - [[2017] SIF 加权模型](#2017-sif-加权模型)
+    - [[]](#)
 - [无监督模型](#无监督模型)
     - [[2015] Skip-Thought Vector](#2015-skip-thought-vector)
     - [[2018] Quick-Thought Vectors](#2018-quick-thought-vectors)
@@ -119,6 +120,9 @@ Index
   </details>
 
 -->
+
+
+### [] 
 
 
 ## 无监督模型
