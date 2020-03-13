@@ -1,8 +1,20 @@
 # IDE
 .idea/
+.vscode/
 
 # folder
 __*/
+.ipynb_checkpoints/
+out/
+
+# file
+-*
+*.zip
+*.tgz
+Untitled.ipynb
+MyCV.pdf
+MyCV.md
+GSD_*.pdf
 
 # root
 /demo.py
